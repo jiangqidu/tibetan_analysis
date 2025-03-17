@@ -1,0 +1,26 @@
+{
+  "name": "tibetan_analysis",
+  "version": "0.1.0",
+  "description": "藏文单词、助词等分析，python版（https://github.com/puntsokCN/tibetan_analysis）",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "藏文",
+    "藏文拆分",
+    "藏文组成结构"
+  ],
+  "author": "jiangqidu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangqidu/tibetan_analysis"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
