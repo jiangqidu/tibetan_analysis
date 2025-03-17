@@ -14,15 +14,8 @@ npm-debug.log*
 # 忽略 macOS 系统文件
 .DS_Store
 
-# 忽略环境变量文件
-.env
-.env.local
-
 # 忽略 TypeScript 编译缓存
 .tsbuildinfo
-
-# 忽略测试覆盖率目录
-coverage/
 
 # 忽略 npm 和 Yarn 的锁文件
 package-lock.json

@@ -1,7 +1,7 @@
 {
   "name": "tibetan_analysis",
-  "version": "0.1.0",
-  "description": "藏文单词、助词等分析，python版（https://github.com/puntsokCN/tibetan_analysis）",
+  "version": "0.1.5",
+  "description": "藏文单词的结构拆分（前、上、基、下、元音、后、再后）",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

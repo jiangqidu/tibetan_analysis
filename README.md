@@ -1,9 +1,10 @@
 # tibetan_analysis
+
+python 版本参考：https://github.com/puntsokCN/tibetan_analysis
+
 **一、前言**
 
-喝水不忘挖井人，大部分思路和代码，来自https://github.com/puntsokCN/tibetan_analysis，不过这个是python版本的，对前端同学不友好，另外好多年没更新了，于是写了一个js版本的，用法一样，函数名也保持了一致
-
-
+喝水不忘挖井人，大部分思路和代码，来自上面的链接，不过上面的是 python 版本的，对前端同学不友好，另外好多年没更新了，于是自己写了一个 js 版本的，用法一样，函数名也保持了一致
 
 **二、安装**
 
@@ -15,14 +16,12 @@ npm install tibetan_analysis
 yarn add tibetan_analysis
 ```
 
-
-
 **三、使用**
 
 ```javascript
 import tibetan from 'tibetan_analysis';
 
-const s = tibetan("བསྒྲིགས")     
+const s = tibetan("བསྒྲིགས")
 
 // 若存在元素，返回对应藏文字符； 若不存在返回 None
 console.log("前加字(སྔོན་འཇུག་):    ", s.front())
@@ -39,8 +38,6 @@ console.log("重后加字(ཡང་འཇུག་):  ", s.repeat_behind())
 console.log("查看全部:         ", s.get_all())
 
 ```
-
-
 
 **四、联系方式**
 
